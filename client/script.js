@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
   showLoadingIndicator(messageDiv);
 
   // Fetch the bot's response from the server
-  const response = await fetch('http://localhost:5002', {
+  const response = await fetch('https://elots.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
